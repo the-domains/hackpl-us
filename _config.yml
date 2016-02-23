@@ -1,28 +1,40 @@
-name: hackpl.us
-favicon: null
-layout_spectrum: 0.7358077559620142
-typography_spectrum: 0.2944050352089107
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+layout_spectrum: 0.4830827
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.7966884574852884
+  brandStrength: 0.8325784567277879
+  rhythmicContrast: 0.8249380895867944
   brandColors:
     - '#71A7FE'
     - '#399AE7'
     - '#3B407C'
     - '#547AB1'
     - '#CEAFC0'
-  brandStrength: 0.8325784567277879
   lightness: 0.547954446868971
-  saturation: 0.7966884574852884
-  rhythmicContrast: 0.8249380895867944
-purpose: []
+typography_spectrum: 0.7180451
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+favicon: null
+name: hackpl.us
